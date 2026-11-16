@@ -4,7 +4,7 @@ site_name = "VTOL VR Squadron Wiki"
 site_description = "Wissenssammlung unserer VTOL VR Squadron"
 site_author = "Ron Gerber"
 
-copyright = "Copyright &copy; 2026 Ron Gerber"
+copyright = "2026 VTOL VR Squadron und Mitwirkende · Inhalte Dritter siehe jeweilige Quellenangabe · VTOL VR ist ein Spiel von Boundless Dynamics"
 
 repo_url = "https://github.com/Gron-HD/vtol-wiki"
 repo_name = "Wiki auf GitHub"
