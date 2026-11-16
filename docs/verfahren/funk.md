@@ -13,6 +13,9 @@
 
 ## Brevity-Codes
 
+!!! tip "Ausführliche Liste"
+    Die wichtigsten Brevity-Codes auf Deutsch stehen in der Gefechtsdatenbank unter [Radio Brevity](../gefechtsdatenbank/radio-brevity.md).
+
 Fachbegriffe kann man als *Abkürzung* definieren, dann zeigt das Wiki beim Drüberfahren mit der Maus eine Erklärung. Beispiel: Fox 3 und BINGO.
 
 *[Fox 3]: Abschuss einer aktiv radargelenkten Luft-Luft-Rakete

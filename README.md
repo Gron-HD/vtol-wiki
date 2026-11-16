@@ -1,23 +1,34 @@
 # VTOL VR Squadron Wiki
 
-Wiki der Squadron, gebaut mit [Zensical](https://zensical.org) und gehostet auf GitHub Pages.
-Die Inhalte liegen im Ordner `docs/`. Eine Anleitung zum Bearbeiten steht im Wiki unter **Mitmachen**.
+**Zum Wiki: https://gron-hd.github.io/vtol-wiki/**
 
-## Einmalige Einrichtung
+Wiki unserer VTOL VR Squadron, gebaut mit [Zensical](https://zensical.org) und gehostet auf GitHub Pages.
+Jede Änderung auf dem Branch `main` wird automatisch veröffentlicht (Fortschritt im Tab *Actions*, dauert ca. 1–2 Minuten).
 
-1. **Repository anlegen:** Auf GitHub ein neues, öffentliches Repository `vtol-wiki` erstellen.
-2. **Dateien hochladen:** Den Inhalt dieses Ordners hochladen (*Add file → Upload files*).
-   Wichtig: Der versteckte Ordner `.github/` muss mit hoch. Falls der Browser-Upload ihn nicht mitnimmt,
-   die Datei `.github/workflows/docs.yml` per *Add file → Create new file* mit genau diesem Pfad anlegen und den Inhalt hineinkopieren.
-3. **Pages aktivieren:** *Settings → Pages → Build and deployment → Source:* **GitHub Actions** wählen.
-4. **Platzhalter ersetzen:** In `zensical.toml` überall `DEIN-GITHUB-NAME` durch deinen GitHub-Namen ersetzen.
-   Heißt das Repository anders als `vtol-wiki`, auch das anpassen.
-5. Nach 1–2 Minuten ist das Wiki erreichbar unter `https://DEIN-GITHUB-NAME.github.io/vtol-wiki/`
-   (Fortschritt im Tab *Actions*).
+## Mitmachen
 
-## Weitere Bearbeiter hinzufügen
+Am einfachsten direkt im Wiki: Auf jeder Seite oben rechts auf den Stift klicken, Text ändern, *Commit changes* klicken.
+Die ausführliche Anleitung inklusive Markdown-Spickzettel steht im Wiki unter
+[Mitmachen](https://gron-hd.github.io/vtol-wiki/mitmachen/).
 
-*Settings → Collaborators → Add people* und GitHub-Namen eintragen. Die Person muss die Einladung annehmen.
+Zum Bearbeiten braucht man einen GitHub-Account und muss als Mitarbeiter eingetragen sein
+(*Settings → Collaborators → Add people*, die Person muss die Einladung annehmen).
+
+## Aufbau
+
+```
+docs/
+├── index.md              Startseite
+├── flugzeuge/            Flugzeugübersicht und Seiten pro Muster
+├── gefechtsdatenbank/    Bodenziele, SHORAD, RWR, Brevity, Jamming, Kneeboard, Leitfäden
+├── verfahren/            Funk, Start & Landung, Formationen …
+├── mitmachen/            Anleitung zum Bearbeiten
+└── assets/bilder/        Alle Bilder, nach Bereich sortiert
+zensical.toml             Einstellungen (Name, Farben, Funktionen)
+.github/workflows/        Automatische Veröffentlichung
+```
+
+Neue Seiten erscheinen automatisch im Menü, die Reihenfolge ist alphabetisch nach Dateiname.
 
 ## Änderungen automatisch in Discord melden (optional)
 
@@ -30,7 +41,7 @@ Die Inhalte liegen im Ordner `docs/`. Eine Anleitung zum Bearbeiten steht im Wik
 
 Die Webhook-URL geheim halten: Wer sie kennt, kann in den Kanal posten.
 
-## Lokal ansehen (optional, nur für Technik-Interessierte)
+## Lokal ansehen (optional)
 
 ```bash
 pip install zensical
@@ -38,3 +49,8 @@ zensical serve
 ```
 
 Dann im Browser `http://localhost:8000` öffnen.
+
+## Quellen
+
+- Kneeboard-Karten: [VTOL-VR-Kneeboard](https://github.com/buschwacker/VTOL-VR-Kneeboard) von buschwacker (CC0)
+- Flugzeug-Leitfäden: inoffizielle Google Docs aus der Community
