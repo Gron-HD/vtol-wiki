@@ -18,6 +18,14 @@ Willkommen im Wiki unserer Squadron! Hier sammeln wir alles, was man für gemein
 
     [:octicons-arrow-right-24: Zu den Flugzeugen](flugzeuge/index.md)
 
+-   :lucide-crosshair: **Gefechtsdatenbank**
+
+    ---
+
+    Bodenziele, SHORAD, RWR, Brevity, Kneeboard-Seiten und Leitfäden.
+
+    [:octicons-arrow-right-24: Zur Gefechtsdatenbank](gefechtsdatenbank/index.md)
+
 -   :lucide-radio: **Verfahren**
 
     ---
