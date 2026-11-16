@@ -1,12 +1,12 @@
 [project]
-site_url = "https://DEIN-GITHUB-NAME.github.io/vtol-wiki/"
+site_url = "https://Gron-HD.github.io/vtol-wiki/"
 site_name = "VTOL VR Squadron Wiki"
 site_description = "Wissenssammlung unserer VTOL VR Squadron"
-# site_author = "Your name"
+# site_author = "Ron Gerber"
 
-# copyright = "Copyright &copy; 2026 Your name"
+# copyright = "Copyright &copy; 2026 Ron Gerber"
 
-repo_url = "https://github.com/DEIN-GITHUB-NAME/vtol-wiki"
+repo_url = "https://github.com/Gron-HD/vtol-wiki"
 repo_name = "Wiki auf GitHub"
 edit_uri = "edit/main/docs/"
 
